@@ -1,3 +1,4 @@
+import 'package:depii/tasks/task1.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,19 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body:Padding(
-          padding: const EdgeInsets.only(left: 50,top: 300),
-          child: Column(
-            children: [
-              Text("Hello"),
-              Text("From"),
-              Text("First"),
-              Text("Flutter Project"),
-            ],
-          ),
-        ) ,
-      ),
+      debugShowCheckedModeBanner: false,
+      home: Task1(),
     );
   }
 }
