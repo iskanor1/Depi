@@ -1,24 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const Basketballcounter());
-}
 
-class Basketballcounter extends StatelessWidget {
-  const Basketballcounter({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Points Counter',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: const PointsCounterScreen(),
-      debugShowCheckedModeBanner: false,
-    );
-  }
-}
 
 class PointsCounterScreen extends StatefulWidget {
   const PointsCounterScreen({super.key});
