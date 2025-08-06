@@ -1,8 +1,9 @@
 import 'package:depii/tasks/task1.dart';
 import 'package:depii/tasks/task2.dart';
-import 'package:depii/tasks/task3.dart';
+import 'package:depii/tasks/massenger.dart';
 import 'package:flutter/material.dart';
 
+import 'basketballcounter.dart';
 import 'contect.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Messenger(),
+      home: Basketballcounter(),
     );
   }
 }
