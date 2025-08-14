@@ -1,3 +1,4 @@
+import 'package:depii/tasks/facebook/login_screen.dart';
 import 'package:depii/tasks/task1.dart';
 import 'package:depii/tasks/task2.dart';
 import 'package:depii/tasks/massenger.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PointsCounterScreen(),
+      home: LoginScreen(),
     );
   }
 }
